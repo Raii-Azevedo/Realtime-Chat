@@ -56,6 +56,7 @@ zope.interface==5.4.0
  
   - Link of deployed application: (Heroku)
   - Repository: https://github.com/Raii-Azevedo/Realtime-Chat
+  - Tutorial: https://github.com/Raii-Azevedo/Realtime-Chat/blob/master/Aplica%C3%A7%C3%B5es%20em%20Tempo%20Real%20com%20Django.pdf
  
 ## Versão
  
