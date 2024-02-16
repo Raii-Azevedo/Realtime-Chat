@@ -1,3 +1,7 @@
-from django.test import TestCase
+from django.urls import re_path
 
-# Create your tests here.
+from .consumers import MeuConsumer
+
+websocket_urlpatterns = [
+    re_path(r'ws/chat/(?P<nome_sala>\w+)/$', MeuConsumer.as_asgi()),
+]
